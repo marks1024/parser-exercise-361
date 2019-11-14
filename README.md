@@ -4,7 +4,7 @@ This is the starter project for the recursive descent parser assignment.  You wi
 
 We discussed the concept of a recursive descent parser during lecture.  Please refer to the lecture slides for more detail.  Briefly, recursive descent allows a programmer to translate a description of a formal language into a program for recognizing valid statements in the language.  In this context, the formal language is typically expressed as a set of production rules.  In recursive descent, the productions become a set of mutually recursive functions.  
 
-For this assignment, you have to create a recursive descent parser for a language where "programs" consist of a list of statements.  The statements can either be identifiers or nested lists of identifies.  Statements end with a semicolon.  A value is an a number, an identifier or an array.  And an array is a nested list of values.  Also, ignore extra whitespace.  
+For this assignment, you have to create a recursive descent parser for a language where "programs" consist of a list of statements.  The statements can either be values or nested lists of values.  Statements end with a semicolon.  A value is an a number, an identifier or an array.  And an array is a nested list of values.  Also, ignore extra whitespace.  
 
 The file in this project `sampledefinition.txt` gives a valid program in this language with many of statements.  
 
