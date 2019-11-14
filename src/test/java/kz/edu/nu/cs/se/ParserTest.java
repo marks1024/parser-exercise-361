@@ -8,7 +8,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-// import kz.edu.nu.cs.se.solve.MyLanguageParser;
+import kz.edu.nu.cs.se.solve.MyLanguageParser;
 
 public class ParserTest {
     
