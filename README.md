@@ -6,7 +6,7 @@ We discussed the concept of a recursive descent parser during lecture.  Please r
 
 For this assignment, you have to create a recursive descent parser for a language where "programs" consist of a list of statements.  The statements can either be values or nested lists of values.  Statements end with a semicolon.  A value is an a number, an identifier or an array.  And an array is a nested list of values.  Also, ignore extra whitespace.  
 
-The file in this project `sampledefinition.txt` gives a valid program in this language with many of statements.  
+The file in this project `sampledefinition.txt` gives a valid program in this language with many examples of statements.  
 
 #### Tasks for the Recursive Descent Problem
 - Clone the starter project and review the language sample
